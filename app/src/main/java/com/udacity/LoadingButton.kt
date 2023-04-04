@@ -64,6 +64,8 @@ class LoadingButton @JvmOverloads constructor(
                 progress = valueAnimator.animatedValue as Float
                 invalidate()
             }
+            repeatCount = ValueAnimator.INFINITE
+            repeatMode = ValueAnimator.RESTART
         }
     }
 
