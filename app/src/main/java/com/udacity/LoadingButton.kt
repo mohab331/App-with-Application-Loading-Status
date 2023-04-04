@@ -89,7 +89,7 @@ class LoadingButton @JvmOverloads constructor(
         canvas?.drawText(buttonLabel, widthSize / 2.0f, heightSize / 2 - (paint.descent() + paint.ascent()) / 2, paint)
 
         paint.color = circleColor
-        canvas?.drawArc(widthSize - 200f,50f,widthSize - 100f,150f,0f, progress, true, paint)
+        canvas?.drawArc(widthSize - 200f,50f,widthSize - 100f,100f,0f, progress, true, paint)
 
     }
 

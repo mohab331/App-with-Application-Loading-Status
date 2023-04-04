@@ -14,8 +14,8 @@ import android.app.NotificationManager
         channelId: String,
         messageContent: String,
         applicationContext: Context,
-        fileName: String,
-        status: String
+        status: String,
+        fileName: String
         ) {
 
 
